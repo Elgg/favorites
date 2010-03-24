@@ -89,3 +89,8 @@
 .blogpost .entity_metadata .favorite {
 	margin-top:2px;
 }
+
+/* documents favorites */
+.document_header .favorite {
+	margin-top:4px;
+}
