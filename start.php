@@ -23,6 +23,10 @@ function favorites_init() {
 		elgg_extend_view('conversations/options', 'favorites/form');
 		elgg_extend_view('blogs/sidebar', 'favorites/display');
 		elgg_extend_view('blogs/options', 'favorites/form');
+		elgg_extend_view('files/options', 'favorites/form');
+		elgg_extend_view('files/sidebar', 'favorites/display');
+		elgg_extend_view('documents/options', 'favorites/form');
+		elgg_extend_view('documents/sidebar', 'favorites/display');
 	}
  }
      
