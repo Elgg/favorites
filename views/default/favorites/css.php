@@ -94,3 +94,8 @@
 .document_header .favorite {
 	margin-top:4px;
 }
+
+/* video favourites */ 
+.video_view .favorite {
+	margin-left:14px;
+}
