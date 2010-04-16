@@ -99,3 +99,8 @@
 .video_view .favorite {
 	margin-left:14px;
 }
+
+/* tidypics favourites */ 
+#tidypics_wrapper .favorite {
+	margin-left:14px;
+}

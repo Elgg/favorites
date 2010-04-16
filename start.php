@@ -29,6 +29,8 @@ function favorites_init() {
 		elgg_extend_view('documents/sidebar', 'favorites/display');
 		elgg_extend_view('videolist/options', 'favorites/form');
 		elgg_extend_view('videolist/sidebar', 'favorites/display');
+		elgg_extend_view('tidypics/options', 'favorites/form');
+		elgg_extend_view('tidypics/sidebar', 'favorites/display');
 	}
  }
      
