@@ -54,6 +54,9 @@
 .favorite_list_item a.document {
 	background: url(<?php echo $vars['url']; ?>mod/favorites/graphics/file_types/document.png) no-repeat 0 0;
 }
+.favorite_list_item a.msword {
+	background: url(<?php echo $vars['url']; ?>mod/favorites/graphics/file_types/msword.png) no-repeat 0 0;
+}
 .favorite_list_item a.excel {
 	background: url(<?php echo $vars['url']; ?>mod/favorites/graphics/file_types/excel.png) no-repeat 0 0;
 }
@@ -68,6 +71,9 @@
 }
 .favorite_list_item a.ppt {
 	background: url(<?php echo $vars['url']; ?>mod/favorites/graphics/file_types/ppt.png) no-repeat 0 0;
+}
+.favorite_list_item a.text {
+	background: url(<?php echo $vars['url']; ?>mod/favorites/graphics/file_types/text.png) no-repeat 0 0;
 }
 .favorite_list_item a.video {
 	background: url(<?php echo $vars['url']; ?>mod/favorites/graphics/file_types/video.png) no-repeat 0 0;
