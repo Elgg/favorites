@@ -10,31 +10,28 @@
  **/
   
 function favorites_init() {
-		
-    // Load system configuration
-	    global $CONFIG;
-	    
-	if(isloggedin()){
-		// Extend views
-		elgg_extend_view('css','favorites/css');
-		
-		elgg_extend_view('bookmarks/sidebar', 'favorites/display');
-		elgg_extend_view('bookmarks/options', 'favorites/form');
-		elgg_extend_view('conversations/options', 'favorites/form');
-		elgg_extend_view('blogs/sidebar', 'favorites/display');
-		elgg_extend_view('blogs/options', 'favorites/form');
-		elgg_extend_view('files/options', 'favorites/form');
-		elgg_extend_view('files/sidebar', 'favorites/display');
-		elgg_extend_view('pages/options', 'favorites/form');
-		elgg_extend_view('pages/sidebar', 'favorites/display');
-		elgg_extend_view('documents/options', 'favorites/form');
-		elgg_extend_view('documents/sidebar', 'favorites/display');
-		elgg_extend_view('videolist/options', 'favorites/form');
-		elgg_extend_view('videolist/sidebar', 'favorites/display');
-		elgg_extend_view('tidypics/options', 'favorites/form');
-		elgg_extend_view('tidypics/sidebar', 'favorites/display');
-	}
- }
+	// Load system configuration
+	global $CONFIG;
+	
+	// always extend views
+	elgg_extend_view('css','favorites/css');
+	
+	elgg_extend_view('bookmarks/sidebar', 'favorites/display');
+	elgg_extend_view('bookmarks/options', 'favorites/form');
+	elgg_extend_view('conversations/options', 'favorites/form');
+	elgg_extend_view('blogs/sidebar', 'favorites/display');
+	elgg_extend_view('blogs/options', 'favorites/form');
+	elgg_extend_view('files/options', 'favorites/form');
+	elgg_extend_view('files/sidebar', 'favorites/display');
+	elgg_extend_view('pages/options', 'favorites/form');
+	elgg_extend_view('pages/sidebar', 'favorites/display');
+	elgg_extend_view('documents/options', 'favorites/form');
+	elgg_extend_view('documents/sidebar', 'favorites/display');
+	elgg_extend_view('videolist/options', 'favorites/form');
+	elgg_extend_view('videolist/sidebar', 'favorites/display');
+	elgg_extend_view('tidypics/options', 'favorites/form');
+	elgg_extend_view('tidypics/sidebar', 'favorites/display');
+}
      
 /**
 * Check to see if the item has been favorited already

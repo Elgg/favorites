@@ -9,7 +9,7 @@ $object_type = $vars['object_type'];
 //get items
 $get_favorite_items = elgg_get_entities_from_relationship(array('relationship' => 'favorite', 'relationship_guid' => $_SESSION['user']->guid, 'inverse_relationship' => TRUE, 'types' => "object", 'subtypes' => $object_type, 'owner_guid' => 0, 'limit' => 99 ));
 
-if(isset($get_favorite_items)){
+if(isloggedin() && isset($get_favorite_items)){
 
 	if($get_favorite_items){	
 	 	echo "<h3>" . elgg_echo('favorites') . "</h3>";
