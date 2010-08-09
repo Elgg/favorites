@@ -48,6 +48,9 @@
 .favorite_list_item a.archive {
 	background: url(<?php echo $vars['url']; ?>mod/favorites/graphics/file_types/archive.png) no-repeat 0 0;
 }
+.favorite_list_item a.zip {
+	background: url(<?php echo $vars['url']; ?>mod/favorites/graphics/file_types/zip.png) no-repeat 0 0;
+}
 .favorite_list_item a.audio {
 	background: url(<?php echo $vars['url']; ?>mod/favorites/graphics/file_types/audio.png) no-repeat 0 0;
 }
